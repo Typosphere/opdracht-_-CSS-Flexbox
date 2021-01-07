@@ -1,0 +1,128 @@
+body {
+    font-family: "Montserrat";
+    font-size: 18px;
+    color: #545454;
+  }
+/* body{
+    font-family: 10px Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    background-color: #D3D3D3;
+    color: #9b5555;
+    margin: 30%, 20%, 10%,10% ;
+} */
+
+.container{
+    width: 500px;
+    margin:auto;
+
+}
+
+
+
+.h1{
+    color: #B8860B;
+    font-size: normaal;
+    font-weight:100;
+    /* font-family: 10px 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    margin-left: 20%, 10%, 20%, 10%;
+    text-align: center
+}
+
+.h2{
+    color: #B8860B;
+    font-size: medium;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+ /*home page*/
+.h1{
+    color: cadetblue;
+    text-align: center;
+}
+
+.background{
+    border:10px solid #B8860B;
+}
+
+.list-color{
+    color: #B8860B;
+}
+
+/*about page*/
+
+.About{
+    color: #B8860B;
+    font-size: normaal;
+    /* border: 10px solid  #2F4F4F */
+}
+
+.tekst{
+    color: #9b8686;
+
+/*atelier page*/   
+}
+#background-color{
+    border: 10px solid  #2F4F4F;
+    text-align: center;
+}
+
+@media(min-width:768px){
+    /*blogpost*/
+.container-1{
+    display:flex;
+
+    /* align-items: flex-start;
+    flex-direction: column; */
+}
+
+.container-2{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+}
+
+.container-3{
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: flex-end; */
+    
+}
+
+.container-1 div {
+    width: 300px; border: 1px solid; color:#545454
+}
+.container-2 div{
+    width: 300px; border: 3px solid; color: #B8860B;
+}
+.container-3 div{
+    width: 300px; border: 1px solid; color: #3b6372;
+}
+
+.blogpost-1{
+    flex:1;
+    font-size: 15px;
+}
+.blogpost-2{
+    flex:8;
+    font-size: 15px;
+    
+}
+.blogpost-3{
+    flex:1;
+    font-size: 15px;
+}
+/* .blogpost-4{
+    flex:1;
+    font-size: 15px;
+} */
+.container-2{
+    /* flex-basis of width*/
+    flex-basis: 50%;
+    font-size: 10px;
+    margin-top: 5px;
+}
+.container-3{
+    flex-basis: 15%;
+    margin-top: 5px;
+    font-size: 10px;
+}
